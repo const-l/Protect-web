@@ -1,0 +1,10 @@
+.link_type_management {
+    display: block;
+    padding: 10px 10px 10px 0;
+    text-align: right;
+    color: #656361;
+}
+.link_type_management.link_hovered {
+    color: #353331;
+    background-color: #ddd;
+}

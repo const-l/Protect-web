@@ -3,7 +3,7 @@ block('page')(
         this._pageInited = true;
         return applyCtx({
             block: this.block,
-            title: this.data.title || 'Title',
+            title: this.data.title || 'Protect',
             styles: [
                 { elem: 'css', url: this.data.settings.baseUrl + 'index.min.css' }
             ],
@@ -11,7 +11,9 @@ block('page')(
                 { elem: 'js', url: this.data.settings.baseUrl + 'index.min.js' }
             ],
             content: [
-                'Keep calm and stay BEMed!'
+                { block: 'header' },
+                { block: 'main' },
+                { block: 'footer' }
             ]
         });
     })

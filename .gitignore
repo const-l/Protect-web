@@ -1,6 +1,7 @@
 node_modules/
 .DS_Store
 .idea/
+.vscode/
 *.iml
 .project
 .svn
@@ -12,8 +13,6 @@ public/index.min.*
 .bem/cache/
 .enb/tmp/
 *bundles*/*/*.*
-!*bundles*/*/*.bemjson.js
+!*bundles*/*/*.bemdecl.js
+*bundles*/*/*.bemhtml.bemdecl.js
 !*bundles*/.bem/*
-*pages*/*/*.*
-!*pages*/*/*.bemjson.js
-!*pages*/.bem/*
